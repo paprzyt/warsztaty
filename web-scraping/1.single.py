@@ -7,7 +7,6 @@ url = "https://www.scrapethissite.com/pages/simple/"
 def main():
     resp = requests.get(url)
     soup = BeautifulSoup(resp.text, "lxml")
-    
 
 if __name__ == "__main__":
     main()
